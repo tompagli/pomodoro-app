@@ -7,6 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.menu {
+  background-color: #c04c4c; /* Red background color */
+  padding: 20px;
+  color: white; /* Text color */
+}
+
+h1{
+  font-size: 300%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
