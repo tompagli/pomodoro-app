@@ -10,8 +10,8 @@ const Pomodoro = () => {
   const [activeScene, setActiveScene] = useState(SCENES.WORK);
   const [timers, setTimers] = useState({
     [SCENES.WORK]: { minutes: 25, seconds: 0 },
-    [SCENES.BREAK_SHORT]: { minutes: 10, seconds: 0 },
-    [SCENES.BREAK_LONG]: { minutes: 5, seconds: 0 }
+    [SCENES.BREAK_SHORT]: { minutes: 5, seconds: 0 },
+    [SCENES.BREAK_LONG]: { minutes: 10, seconds: 0 }
   });
   const [isActive, setIsActive] = useState(false);
 
