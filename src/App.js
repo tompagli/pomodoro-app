@@ -3,7 +3,7 @@ import Pomodoro from './Pomodoro';
 
 function App() {
   return (
-    <div className="App">
+    <div className="Timer">
       <Pomodoro/>
     </div>
   );

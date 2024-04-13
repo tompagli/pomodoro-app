@@ -5,19 +5,114 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0ecdc;
+  height: 100vh;
 }
 
 .menu {
   background-color: #c04c4c; /* Red background color */
-  padding: 20px;
-  color: white; /* Text color */
+  color: #f0ecdc; /* Text color */
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Align items horizontally with space between */
+  align-items: center; /* Align items vertically in the center */
+  width: 100%; /* Ensure the menu div takes up the full width */
 }
+
+.lower_menu{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 80px;
+    background-color: #c04c4c; /* Red background color */
+    color: #f0ecdc; /* Text color */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Align items horizontally with space between */
+    align-items: center; /* Align items vertically in the center */
+    width: 100%; /* Ensure the menu div takes up the full width */  
+}
+
+
+img.tomato {
+  width: 5%;
+  height: auto;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+h2 {
+  margin-right: 20px;
+  font-size: 300%;
+
+}
+
 
 h1{
-  font-size: 300%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Timer {
+  border-radius: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 40px;
+  color: #f0ecdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c04c4c;
+  font-size: 3rem;
+  font-weight: bold;
+  width: 30%;
+  min-width: 200px; /* Set a minimum width to ensure the content is readable */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pomodoro-btn {
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-size: 25px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: transparent; /* Remove background color */
+  cursor: pointer;
+  color: inherit;
+  transition: background-color 0.3s; 
+}
+
+.pomodoro-btn:active {
+  background-color: rgba(0, 0, 0, 0.1); /* Slightly darker color when button is active */
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.ssr-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ssr {
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-size: 25px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: transparent; /* Remove background color */
+  cursor: pointer;
+  color: inherit;
+  transition: background-color 0.3s;
 }

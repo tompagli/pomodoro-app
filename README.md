@@ -44,7 +44,7 @@
 
 ## :dart: About ##
 
-This project is aimed to build a Pomodoro timer application using React. The Pomodoro Technique is a time management method that uses 25-minute work intervals separated by short breaks.
+This project is a Pomodoro timer application using React. The Pomodoro Technique is a time management method that uses 25-minute work intervals separated by short breaks.
 
 ## :rocket: Technologies ##
 
@@ -70,10 +70,10 @@ $ git clone https://github.com/tompagli/pomodoro-app
 $ cd pomodoro-app
 
 # Install dependencies
-$ yarn
+$ npm install
 
 # Run the project
-$ yarn start
+$ npm start
 
 # The server will initialize in the <http://localhost:3000>
 ```
@@ -84,6 +84,10 @@ This project is under license from MIT. For more details, see the [LICENSE](LICE
 
 
 Made with :heart: by <a href="https://github.com/tompagli" target="_blank">Tom</a>
+
+## :camera: app running ##
+
+![Pomodoro App](./pomodoro_sc.png)
 
 &#xa0;
 
